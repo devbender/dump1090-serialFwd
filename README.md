@@ -40,7 +40,7 @@ Arguments
 --tcp		TCP port to connect to default: 30003 (SBS-1)
 --port		Serial Port to use default: /dev/serial0
 --baud		Serial Baudrate default: 115200
---delayed	Delay start in seconds (for Cron use) default: None (0)
+--delayed	Delay start in seconds (for Cron use) default: 0
 
 Auto start via Cron
 ---
