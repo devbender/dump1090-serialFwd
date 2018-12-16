@@ -36,11 +36,11 @@ Can be install via > apt install python-serial or pip install pyserial
 Arguments
 ---
 
---host		dump1090 IP address default: localhost
---tcp		TCP port to connect to default: 30003 (SBS-1)
---port		Serial Port to use default: /dev/serial0
---baud		Serial Baudrate default: 115200
---delayed	Delay start in seconds (for Cron use) default: 0
+* --host		dump1090 IP address default: localhost
+* --tcp			TCP port to connect to default: 30003 (SBS-1)
+* --port		Serial Port to use default: /dev/serial0
+* --baud		Serial Baudrate default: 115200
+* --delayed		Delay start in seconds (for Cron use) default: 0
 
 Auto start via Cron
 ---
