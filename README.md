@@ -51,4 +51,7 @@ Type > crontab -e
 
 Add line >>> 
 
-@reboot	python *PATH_TO_SCRIPT*/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
+@reboot	python SCRIPT_PATH/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
+
+ex. @reboot	python /root/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
+    @reboot	python /home/pi/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
