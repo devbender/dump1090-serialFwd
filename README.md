@@ -49,9 +49,11 @@ I recommend specifying at least 30 seconds of delayed start to allow the raspber
 
 Type > crontab -e
 
-Add line >>> 
+Add line:
 
 @reboot	python SCRIPT_PATH/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
 
-ex. @reboot	python /root/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
-    @reboot	python /home/pi/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
+Examples:
+
+@reboot	python /root/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
+@reboot	python /home/pi/dump1090-serialFwd.py --host localhost --tcp 30003 --port /dev/serial0 --baud 115200 --delayed 30
