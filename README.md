@@ -1,5 +1,4 @@
 # Serial Fwd for dump1090
-===
 
 Dump 1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
@@ -30,7 +29,7 @@ Type > python dump1090-serialFwd.py
 Requirements
 ---
 
-* pyserial *
+* pyserial
 
 Can be install via > apt install python-serial or pip install pyserial
 
